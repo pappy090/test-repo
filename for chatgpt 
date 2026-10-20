@@ -1,1 +1,104 @@
-for chatgpt 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DARA DIGITAL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+</head>
+<body>
+    <div class="cointainer">
+    <div id="header">
+    
+        <img width="100" href="index.html" src="images/logo.png">
+        <div class="navbar">
+                <nav>   
+            <ul>
+                <li><a href=""target="_blank">HOME</a></li>
+                <li><a href=""target="_blank">ABOUT</a></li>
+                <li><a href="http://127.0.0.1:5502/index.html"target="_blank">DIGITAL</a></li>
+                <li><a href=""target="_blank">CONTENT</a></li>
+                <li><a href=""target="_blank">FAQ</a></li>
+            </ul>
+           
+        </nav>
+    
+        </div>
+        <div class="note">
+            <h2>WEBSITE DESIGN</h2>
+            <a>Good to have you here, if you have made it far to this page means you want to know <br>more about website design! </a>
+             <br><br>
+            <a class="ets" href="" scr="  target="_blank">visit the website</a>
+        </div>
+        </div> 
+    </div>  
+    <div class="cointaner">
+    <div id="main">
+            <div class="box1">
+        <i class="fa-fas-arrows">Service</i>
+    <p>We offer best course for website designer and mentorship to our clients</p>
+</div>
+<div class="box2">
+    <i class="fa-fas-arrows">work</i>
+<p>This website you are viewing was designed my me which serve as a live proof of my work one of several sites created my me.</p>
+</div>
+<div class="box3">
+    <i class="fa-fas-arrows">Mentorship</i>
+<p>for our clients they can contact us at anytime if they have questions about our course</p>
+</div>
+</div>
+    </div>
+<div id="cointainer">
+    <div id="note">
+        <div class="headcontent">
+        <a><h2>PAPPYMEDIA DIGITAL</h2></a>
+        <h4>M A R K E T I N G   E X P E R T</h4>
+        <br><br>
+        <p>Are you in search of a digital website expert to teach and mentor you on web-development,book,ebook,kindle book,video,online  effectively and effciently communication? Search no further; yes we offer all of this services, right here, you are at the right gig</p>
+        <br><br>
+        <h3><a class="link" href=""target="_blank">LEARN MORE</a></h3>
+        </div>
+            <img class="imagecontent" href="index.html" src="images/IMG-20220712-WA0004.jpg">
+        </div>
+       </div>
+        </div>
+    </div>
+    <div class="container">
+    <div id="forthlayout">
+        <div class="maincontent">
+    <p class="h1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur laborum natus reiciendis obcaecati fugit culpa. Aliquid dolores deleniti in itaque, tempora magni, praesentium quod soluta cum nesciunt, dicta et ullam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi necessitatibus sint odio distinctio facilis dolore fugiat nisi eius repudiandae, inventore aliquid porro quae rerum repellat nostrum ipsum ea voluptatum aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex natus debitis labore quasi. Ipsa saepe aliquam commodi magnam distinctio assumenda quos quasi nobis, sunt ex, iste quis sequi doloremque vitae. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam dolorem delectus laborum deserunt autem vero ratione. Laboriosam, fuga facere minus officiis incidunt perferendis! Enim velit perspiciatis cupiditate ex possimus harum.</p>
+<br>
+<p class="h2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro minima quaerat, consectetur perferendis eum amet, perspiciatis, impedit doloribus deleniti ratione tempore. Sunt ex officia laboriosam dolor et, libero cupiditate harum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque iste consequuntur cumque similique iure aliquid minima hic vel at reiciendis commodi dolorum distinctio, inventore fuga atque quas sequi odit aut!</p>
+<br>
+<p class="h3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae iure hic minima quaerat sapiente exercitationem, ad praesentium aliquid, incidunt delectus est voluptatum fugit nam consequatur maxime atque digipsum dolor sit amet consectetur adipisicing elit. Repellendus, unde aliquam? Consectetur dolor odio nam fuga, deleniti molestias enim sunt necessitatibus, neque, facilis praesentium! Mollitia quod nisi in culpa nesciunt.</p>
+<br>
+</div>
+<h2>WHAT'S DIGITAL MARKETING</h2>
+<hr>
+    <br>
+    <div class="iframe">
+<iframe width="560" height="316" src="https://www.youtube.com/embed/bixR-KIJKYM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p class="iframenote">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae quis architecto culpa tenetur, eligendi iste dolore hic velit repellendus facere dolorum incidunt neque reprehenderit inventore, accusantium quae blanditiis magni asperiores? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate eius nisi nobis sequi, magni, quae rem molestias quis illo, amet accusantium reiciendis? Non eos, veniam aspernatur reprehenderit nulla quas eum! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, neque voluptate id, praesentium vitae consequuntur voluptatem asperiores molestiae quaerat illum voluptas, illo impedit? Perspiciatis, temporibus blanditiis? Itaque asperiores ab illo!</p>
+</div>
+    </div>
+    </div>
+    <div class="cointainer">
+        <div id="footer">
+<div class="section">
+    <a>For more enquries fill in the details below;</a>
+    <br>
+    <label for="username"></label>
+    USERNAME:<input class="username" type="username" name="usernmae">
+    <label for="password"></label>
+    PASSWORD: <input class="password" type="password" name="password">
+<br><br>
+<input class="q" type="submit">
+</div>
+<b>&copy; all right reserved.pappymedia inc 2022.</b>
+        </div>
+    </div>
+</body>
+</html>
