@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b1020">
+<meta name="description" content="Ayoexchange — a modern digital exchange preview.">
+<title>Ayoexchange | Move Value Forward</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1020;--panel:#131b30;--muted:#9ba8c4;--green:#65f0bd;--purple:#9e8cff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(ellipse at 85% 5%,#28204d 0,transparent 35%),var(--bg);color:#f6f7ff;font-family:Arial,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}
+header{display:flex;align-items:center;justify-content:space-between;padding:20px 7%;border-bottom:1px solid #ffffff16;gap:16px}
+.brand{font-size:23px;font-weight:800;letter-spacing:-1px}.brand span{color:var(--green)}
+nav{display:flex;gap:22px;color:#c3cbe0;font-size:14px}
+button,.btn{cursor:pointer;border:0;border-radius:12px;padding:12px 17px;font-weight:700;font-size:14px}
+.btn-main{background:var(--green);color:#07131a}
+.btn-outline{background:transparent;color:#fff;border:1px solid #ffffff35}
+.wrap{width:min(1100px,88%);margin:auto}
+.hero{padding:80px 0 55px;display:grid;grid-template-columns:1.05fr .95fr;gap:45px;align-items:center}
+.kicker{color:var(--green);font-size:12px;letter-spacing:2px;font-weight:bold}
+h1{font-size:clamp(42px,6vw,68px);line-height:1.05;letter-spacing:-3px;margin:18px 0}
+.gradient{background:linear-gradient(90deg,var(--green),#9d8aff);color:transparent;background-clip:text}
+p{color:var(--muted)}
+.hero p{font-size:17px;max-width:500px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin:25px 0}
+.panel{background:linear-gradient(145deg,#19233b,#101729);border:1px solid #ffffff19;border-radius:22px;padding:25px;box-shadow:0 20px 70px #0004}
+.panel h2{margin:0 0 5px;font-size:22px}
+.note{font-size:12px;color:var(--muted)}
+label{display:block;color:#c5cee2;font-size:13px;margin:17px 0 7px}
+.field{display:flex;background:#0b1222;border:1px solid #ffffff20;border-radius:12px;padding:10px;gap:8px}
+input,select{min-width:0;width:100%;background:transparent;color:#fff;border:0;outline:0;font-size:16px;padding:6px}
+select option{background:#131b30}
+.swap{text-align:center;margin:7px 0}
+.swap button{border:1px solid #ffffff28;background:#222c45;color:var(--green);padding:7px 15px}
+.full{width:100%;margin-top:18px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;padding:20px 0 55px}
+.stat,.market{padding:18px;border:1px solid #ffffff18;border-radius:16px;background:#ffffff06}
+.stat strong{display:block;font-size:21px}.stat span{color:var(--muted);font-size:12px}
+section.content{padding:48px 0}
+h2.section-title{font-size:32px;letter-spacing:-1px;margin:8px 0}
+.markets{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:22px}
+.market-top{display:flex;justify-content:space-between;gap:8px}
+.symbol{background:#252d49;border-radius:10px;padding:8px 10px;font-weight:bold}
+.up{color:var(--green)}.down{color:#ff879b}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:22px}
+.feature{padding:22px;border:1px solid #ffffff18;border-radius:16px}
+.feature .emoji{font-size:25px}
+footer{border-top:1px solid #ffffff18;padding:28px 0;margin-top:40px;color:var(--muted);font-size:13px}
+.disclaimer{border:1px solid #e9c46a55;background:#e9c46a0b;color:#f2d995;border-radius:12px;padding:12px;font-size:12px;margin-top:15px}
+#message{font-size:13px;color:var(--green);min-height:20px}
+@media(max-width:760px){header{padding:17px 5%;flex-wrap:wrap}nav{order:3;width:100%;justify-content:space-between;gap:10px;font-size:12px}.hero{grid-template-columns:1fr;padding-top:48px;gap:25px}.stats{grid-template-columns:1fr}.markets,.features{grid-template-columns:1fr 1fr}h1{letter-spacing:-2px}}
+@media(max-width:450px){.markets,.features{grid-template-columns:1fr}.panel{padding:18px}.wrap{width:90%}}
+</style>
+</head>
+<body>
+<header>
+<a class="brand" href="#home">Ayo<span>exchange</span></a>
+<nav><a href="#markets">Markets</a><a href="#exchange">Exchange</a><a href="#about">About</a></nav>
+<a class="btn btn-outline" href="#exchange">Get started ↗</a>
+</header>
+
+<main class="wrap" id="home">
+<section class="hero">
+<div>
+<div class="kicker">YOUR VALUE. YOUR JOURNEY.</div>
+<h1>Move value.<br><span class="gradient">Move forward.</span></h1>
+<p>Discover a clearer way to explore digital assets and currency conversion with Ayoexchange's modern, simple interface.</p>
+<div class="actions"><a class="btn btn-main" href="#exchange">Explore exchange ↓</a><a class="btn btn-outline" href="#markets">Explore markets</a></div>
+<p class="note">Designed for clarity. Built with a security-minded approach.</p>
+</div>
+
+<div class="panel" id="exchange">
+<div class="kicker">CONVERSION PREVIEW</div>
+<h2>Quick convert</h2>
+<p class="note">Try the interactive demo below.</p>
+<label for="amount">You send</label>
+<div class="field"><input id="amount" type="number" min="0" value="100" aria-label="Amount to convert"><select id="from" aria-label="Currency to send"><option value="NGN">NGN ₦</option><option value="USD">USD $</option><option value="USDT">USDT ₮</option><option value="BTC">BTC ₿</option><option value="ETH">ETH ◆</option></select></div>
+<div class="swap"><button id="swap" type="button" aria-label="Swap currencies">↕ Swap</button></div>
+<label for="result">Estimated receive</label>
+<div class="field"><input id="result" readonly value="—" aria-label="Estimated amount received"><select id="to" aria-label="Currency to receive"><option value="USDT">USDT ₮</option><option value="NGN">NGN ₦</option><option value="USD">USD $</option><option value="BTC">BTC ₿</option><option value="ETH">ETH ◆</option></select></div>
+<p id="rate" class="note">Illustrative rates only</p>
+<button class="btn btn-main full" id="quote">Preview conversion →</button>
+<div id="message" role="status"></div>
+<div class="disclaimer">Demo only: no live prices, deposits, withdrawals, wallet connections or real trades. Do not send money through this preview.</div>
+</div>
+</section>
+
+<div class="stats">
+<div class="stat"><strong>Simple</strong><span>A clear interface</span></div>
+<div class="stat"><strong>Flexible</strong><span>Multiple currencies</span></div>
+<div class="stat"><strong>Demo mode</strong><span>No real transactions</span></div>
+</div>
+
+<section class="content" id="markets">
+<div class="kicker">EXPLORE DIGITAL ASSETS</div>
+<h2 class="section-title">Markets at a glance.</h2>
+<p>Example asset cards to preview how market information may look.</p>
+<div class="markets">
+<div class="market"><div class="market-top"><b>₿ Bitcoin</b><span class="symbol">BTC</span></div><h2>$67,250</h2><span class="up">+2.4% sample</span></div>
+<div class="market"><div class="market-top"><b>◆ Ethereum</b><span class="symbol">ETH</span></div><h2>$3,420</h2><span class="up">+1.2% sample</span></div>
+<div class="market"><div class="market-top"><b>₮ Tether</b><span class="symbol">USDT</span></div><h2>$1.00</h2><span class="down">Illustrative</span></div>
+</div>
+<p class="note">All figures are fictional examples for the design, not current market prices or financial advice.</p>
+</section>
+
+<section class="content" id="about">
+<div class="kicker">THE AYOEXCHANGE APPROACH</div>
+<h2 class="section-title">Clarity at every step.</h2>
+<div class="features">
+<div class="feature"><div class="emoji">✦</div><h3>Easy to explore</h3><p>Simple layouts help visitors find exchange information quickly.</p></div>
+<div class="feature"><div class="emoji">⇄</div><h3>Conversion preview</h3><p>Try different currency pairs using illustrative rates.</p></div>
+<div class="feature"><div class="emoji">◈</div><h3>Security-minded</h3><p>A foundation for future secure account and transaction features.</p></div>
+</div>
+</section>
+</main>
+
+<footer><div class="wrap">© <span id="year"></span> Ayoexchange. All rights reserved.<br><span class="note">Frontend preview only. Live market data and real financial services are not connected.</span></div></footer>
+
+<script>
+const samples={NGN:1500,USD:1,USDT:1,BTC:67250,ETH:3420};
+const money={NGN:"₦",USD:"$",USDT:"₮",BTC:"₿",ETH:"◆"};
+const from=document.getElementById("from"),to=document.getElementById("to");
+const amount=document.getElementById("amount"),result=document.getElementById("result");
+const rate=document.getElementById("rate"),message=document.getElementById("message");
+function convert(){
+ const a=Number(amount.value);
+ const f=from.value,t=to.value;
+ if(!Number.isFinite(a)||a<0){result.value="";message.textContent="Enter a valid amount.";return}
+ const out=a*samples[f]/samples[t];
+ result.value=out.toLocaleString("en-US",{maximumFractionDigits:8});
+ rate.textContent="Sample rate: 1 "+f+" ≈ "+(samples[f]/samples[t]).toLocaleString("en-US",{maximumFractionDigits:8})+" "+t;
+ message.textContent="";
+}
+document.getElementById("quote").addEventListener("click",()=>{convert();message.textContent="Demo estimate calculated — no transaction was made."});
+document.getElementById("swap").addEventListener("click",()=>{const old=from.value;from.value=to.value;to.value=old;convert()});
+amount.addEventListener("input",convert);from.addEventListener("change",convert);to.addEventListener("change",convert);
+document.getElementById("year").textContent=new Date().getFullYear();
+convert();
+</script>
+</body>
+</html>
